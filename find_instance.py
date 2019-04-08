@@ -12,7 +12,7 @@ import boto3
 import paramiko
 
 
-def main():
+def main():  # pylint: disable=too-many-locals
     "do the work"
     if len(sys.argv) != 2:
         print("please supply a compute environment name.")
